@@ -2,9 +2,12 @@
 background: #4568dc; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: white;
+
 }
 
+.body-color{
+	color: white;
+}
 .title-main {
 	font-family: 'Dosis', sans-serif;
 	text-align: center;
@@ -68,3 +71,17 @@ color: white;
     margin: auto;
     position: absolute;
 } 
+
+.boilerplate-topics{
+	position: absolute;
+    margin-top: 3%;
+    margin-left: 25%;
+    border-bottom: 2px;
+    border-color: red;
+}
+
+.href-link{
+	color: white;
+	cursor: pointer;
+
+}
