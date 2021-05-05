@@ -11,18 +11,14 @@ background: #4568dc; /* fallback for old browsers */
 .title-main {
 	font-family: 'Dosis', sans-serif;
 	text-align: center;
-	font-size: 10em;
- 	top: 10%;
- 	left: 25%;
-  	transform: translateY(10%);
+	font-size: 5em;
 }
 
 .title-sub {
 	font-family: 'Dancing Script', cursive;
-	font-size: 5em;
+	font-size: 3em;
 	top: 5%;
 	text-align: center;
-  	transform: translateY(5%);
 
 }
 
@@ -30,17 +26,11 @@ background: #4568dc; /* fallback for old browsers */
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
 	text-align: center;
-	top: 80%;
-	left: 32%;
-	transform: translateY(80%)
 }
 
 .title-social {
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
-	top: 100%;
-	left: 37%;
-	transform: translateY(300%)
 }
 
 .font-icon {
@@ -51,9 +41,7 @@ background: #4568dc; /* fallback for old browsers */
 	font-size: 2em;
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
-	top: 80%;
-	left: 37%;
-	transform: translateY(200%)
+	position: relative;
 }
 
 .social-icon-link {
@@ -69,19 +57,30 @@ background: #4568dc; /* fallback for old browsers */
     width:100%; /*Takes 90% width from WebContainer*/
     height: auto;
     margin: auto;
-    position: absolute;
 } 
 
 .boilerplate-topics{
-	position: absolute;
     margin-top: 3%;
-    margin-left: 25%;
     border-bottom: 2px;
-    border-color: red;
+	font-size: 2em;
+	text-align: center;
+
 }
 
-.href-link{
+a{
 	color: white;
 	cursor: pointer;
+	text-decoration: none;
+}
+a:hover {
+    color:linear-gradient(to right, #7f00ff, #e100ff);; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 
+.article-bg{
+	background: linear-gradient(to right, #7f00ff, #e100ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    padding: 5px;
+	margin-top: 50px;;
 }
